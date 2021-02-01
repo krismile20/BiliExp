@@ -24,6 +24,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/happy888888/BiliExp.git"
-          source_branch: "main"
-          destination_branch: "main"
+          source_branch: "dev"
+          destination_branch: "BiliExp-Actions"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
